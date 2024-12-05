@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(185, 255, 180);
+}
+
+nav{
+    /* border: solid; */
+}
+nav ul{
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+    border: solid;
+    width: 250px;
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(profpic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+footer ul{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+footer ul li{
+    list-style: none;
+    padding: 0 4px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: black;
+    border: solid;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 2px;
+}
+main h1{
+    /* border: solid; */
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+main p{
+    text-align: center;
+    margin: 0;
+     font-size: large;
+}
+section h2{
+    text-align: center;
+}
+.about{
+    cursor: pointer;
+    margin: 0 auto;
+    width: 95%;
+    border: solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+.about:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 10px cyan,
+                0 0 15px cyan;
+}
+.about p{
+    margin-left: 8px;
+    width: 50%;
+}
+#Work p{
+    text-align: center;
+}
+form{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(formimg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+form p{
+    color: rgb(0, 17, 199);
+    background-color: rgba(0, 255, 255, 0.368);
+}
+footer p{
+    text-align: center;
+}
